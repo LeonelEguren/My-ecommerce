@@ -12,7 +12,7 @@ const App = () => {
   return (
     <><ChakraProvider>
       <div>
-      <div className='Body'>
+     
 
         <section className='nav-bar'>
           <NavBar />
@@ -20,10 +20,11 @@ const App = () => {
        
 
       </div>
+      <div className='body'>
       <section className='item-list-container'>
-          <ItemListContainer gretting={<iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+          <ItemListContainer gretting={<iframe width="560" height="315" src="https://www.youtube.com/embed/0EntM7hqzAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
         </section>
-      </div>
+        </div>
     </ChakraProvider>
     </>
   )
